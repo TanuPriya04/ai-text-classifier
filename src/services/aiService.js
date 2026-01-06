@@ -10,11 +10,7 @@ const confidenceMap = {
   Other: 0.6
 };
 
-<<<<<<< HEAD
 // 🔹 Deterministic fallback 
-=======
-// 🔹 Deterministic fallback
->>>>>>> 78a6cc8382ccaccfba4ccb00b06ffb50448a0111
 const fallbackClassify = (text) => {
   const t = text.toLowerCase();
 
