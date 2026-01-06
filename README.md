@@ -39,7 +39,6 @@ ai-text-classifier/
 │       └── aiService.js
 ├── AI_Text_Classification_API.postman_collection.json
 ├── package.json
-├── .env
 └── README.md
 ```
 
@@ -57,9 +56,8 @@ cd ai-text-classifier
 
 ### 2️⃣ Install Dependencies
 ```bash
-npm init -y
-npm install nodemon --save-dev
-npm install @google/generative-ai
+npm install
+
 
 ```
 
