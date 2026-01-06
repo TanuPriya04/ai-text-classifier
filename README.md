@@ -39,7 +39,9 @@ ai-text-classifier/
 │       └── aiService.js
 ├── AI_Text_Classification_API.postman_collection.json
 ├── package.json
+├── .gitignore
 └── README.md
+
 ```
 
 ---
