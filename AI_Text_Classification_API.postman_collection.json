@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "55532b3a-0b0b-4323-b43c-3bb2641cd7bf",
+		"name": "AI Text Classification API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47543438",
+		"_collection_link": "https://tanupd04-4595993.postman.co/workspace/My-Workspace~029f637d-2f05-4e4d-b7f4-96cd64dd1eeb/collection/47543438-55532b3a-0b0b-4323-b43c-3bb2641cd7bf?action=share&source=collection_link&creator=47543438"
+	},
+	"item": [
+		{
+			"name": "Classify - Query",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"How can I reset my password?\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/classify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"classify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Classify - Complaint",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"My order arrived damaged and late\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/classify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"classify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Classify - Feedback",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Your app UI is really good\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/classify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"classify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Classify - Other",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Hello\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/classify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"classify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
